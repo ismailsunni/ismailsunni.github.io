@@ -1,4 +1,24 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Me as Software Engineer</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Tue, 12 Jan 2016 15:07:45 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">83a6c6c8-2672-4a86-848f-888b885d5049</guid><category>Getting Started</category><dc:creator>Ismail Sunni</dc:creator><pubDate>Tue, 12 Jan 2016 14:28:25 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Me as Software Engineer</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 16 Jan 2016 15:33:10 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Ghosting Workflow</title><description>&lt;p&gt;In this post, I will try to write what do I need to do to write a blog post in this ghost blog.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;open terminal, go to ghost directory  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nvm use 4.2.0&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;npm start&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;go to &lt;a href="http://localhost:2368"&gt;http://localhost:2368&lt;/a&gt; in browser  &lt;/li&gt;
+&lt;li&gt;login and write post  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;buster generate&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;buster&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</description><link>http://localhost:2368/ghosting-workflow/</link><guid isPermaLink="false">fdd283ed-a615-421e-9bb8-141949bfde46</guid><category>ghost</category><dc:creator>Ismail Sunni</dc:creator><pubDate>Sat, 16 Jan 2016 15:00:15 GMT</pubDate><content:encoded>&lt;p&gt;In this post, I will try to write what do I need to do to write a blog post in this ghost blog.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;open terminal, go to ghost directory  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nvm use 4.2.0&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;npm start&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;go to &lt;a href="http://localhost:2368"&gt;http://localhost:2368&lt;/a&gt; in browser  &lt;/li&gt;
+&lt;li&gt;login and write post  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;buster generate&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;buster preview&lt;/code&gt;, and check in &lt;a href="http://localhost:9000"&gt;http://localhost:9000&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;buster deploy&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">83a6c6c8-2672-4a86-848f-888b885d5049</guid><category>Getting Started</category><dc:creator>Ismail Sunni</dc:creator><pubDate>Tue, 12 Jan 2016 14:28:25 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
 
 &lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
 
