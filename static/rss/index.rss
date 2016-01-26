@@ -1,4 +1,16 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Me as Software Engineer</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 16 Jan 2016 15:49:34 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Ghosting Workflow</title><description>&lt;p&gt;In this post, I will try to write what do I need to do to write a blog post in this ghost blog.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Me as Software Engineer</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 16 Jan 2016 15:46:33 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>About</title><description>&lt;h3 id="me"&gt;Me&lt;/h3&gt;
+
+&lt;p&gt;My name is Ismail Sunni. I am a software engineer or at least that's what I do for live, for now. I am working remotely at &lt;a href="http://kartoza.com"&gt;Kartoza&lt;/a&gt;. I live in &lt;a href="https://www.google.com/maps/place/Special+Region+of+Yogyakarta,+Indonesia"&gt;Yogyakarta, Indonesia&lt;/a&gt;. And lastly, &lt;a href="http://github.com/ismailsunni/"&gt;my github account&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="thisblog"&gt;This Blog&lt;/h3&gt;
+
+&lt;p&gt;This is my second attempt to write a more technical&lt;/p&gt;</description><link>http://localhost:2368/about/</link><guid isPermaLink="false">8b2522a7-0bb7-4948-b058-d99771c70fa9</guid><dc:creator>Ismail Sunni</dc:creator><pubDate>Sat, 16 Jan 2016 15:30:24 GMT</pubDate><content:encoded>&lt;h3 id="me"&gt;Me&lt;/h3&gt;
+
+&lt;p&gt;My name is Ismail Sunni. I am a software engineer or at least that's what I do for live, for now. I am working remotely at &lt;a href="http://kartoza.com"&gt;Kartoza&lt;/a&gt;. I live in &lt;a href="https://www.google.com/maps/place/Special+Region+of+Yogyakarta,+Indonesia"&gt;Yogyakarta, Indonesia&lt;/a&gt;. And lastly, &lt;a href="http://github.com/ismailsunni/"&gt;my github account&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="thisblog"&gt;This Blog&lt;/h3&gt;
+
+&lt;p&gt;This is my second attempt to write a more technical blog. My first attempt is &lt;a href="https://codemath.wordpress.com"&gt;CodeMath&lt;/a&gt;. I also write more general (and active) blog in &lt;a href="https://ismailsunni.wordpress.com"&gt;Imajimatika&lt;/a&gt;. But both of them mostly in Indonesia.&lt;/p&gt;</content:encoded></item><item><title>Ghosting Workflow</title><description>&lt;p&gt;In this post, I will try to write what do I need to do to write a blog post in this ghost blog.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;open terminal, go to ghost directory  &lt;/li&gt;

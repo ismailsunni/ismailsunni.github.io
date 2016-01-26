@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Me and This Blog</title>
+    <title>About</title>
     <meta name="description" content="" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -29,7 +29,7 @@
     </a>
     <ul>
             <li class="nav-home" role="presentation"><a href="index.html">Home</a></li>
-            <li class="nav-author" role="presentation"><a href="about">Author</a></li>
+            <li class="nav-about" role="presentation"><a href="about">About</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="rss/index.html">Subscribe</a>
 </div>
@@ -52,7 +52,7 @@
     <article class="post page">
 
         <header class="post-header">
-            <h1 class="post-title">Me and This Blog</h1>
+            <h1 class="post-title">About</h1>
         </header>
 
         <section class="post-content">
