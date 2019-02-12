@@ -348,6 +348,38 @@
           19.70239503140542
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "December 2018",
+        "notes": "GeoMundus 2018 and travelling",
+        "name": "Lisbon, Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.11865234375,
+          38.71980474264237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "December 2018",
+        "notes": "Bacalhau and Tarte de Nata",
+        "name": "Porto, Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.61104965209961,
+          41.14905987243725
+        ]
+      }
     }
   ]
 }
