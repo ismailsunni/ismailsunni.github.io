@@ -1,0 +1,353 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stay",
+        "year": "1990-2005",
+        "notes": "Birth to junior high school. Full of football and math.",
+        "name": "Bantul, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31045913696288,
+          -7.957577250957507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stay",
+        "year": "2005-2008",
+        "notes": "Senior high school, live far for the first time. More football and math.",
+        "name": "Semarang, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.359468460083,
+          -7.050808595842731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stay",
+        "year": "2008-2012",
+        "notes": "College, first time learning software engineering. Best period to learn many new things.",
+        "name": "Bandung, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.62052536010741,
+          -6.85825851242774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stay",
+        "year": "2012-2013",
+        "notes": "First full time job. Got introduced to open source, GIS, and great mentor",
+        "name": "Jakarta, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82165622711182,
+          -6.186080779052677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stay",
+        "year": "2013-2014",
+        "notes": "First time living aboard. Get lost in South Korea.",
+        "name": "Gwangju, South Korea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.88385009765624,
+          35.18727767598898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stay",
+        "year": "2014-2018",
+        "notes": "Return to Yogya while doing remote working. Got married.",
+        "name": "Sleman, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.40435791015625,
+          -7.734125863414585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Stay",
+        "year": "2018-2019",
+        "notes": "Starting master degree. A new chapter whose full of opportunity.",
+        "name": "Castellon, Spain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0516057014465332,
+          39.98815248558935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Work",
+        "year": "June 2016",
+        "name": "Stellenbosch, South Africa",
+        "notes": "First time to Africa, visiting my company Head Quarter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.867216110229492,
+          -33.93438773485518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Work",
+        "year": "July 2016",
+        "notes": "Giving training in Malawi. First time experiencing Africa",
+        "name": "Salima, Malawi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.43939208984375,
+          -13.771398796603483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Work",
+        "year": "December 2016",
+        "notes": "First time in Europe and GeoNode dev meeting.",
+        "name": "Rome, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.469482421875,
+          41.90023276842022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Work",
+        "year": "August 2017",
+        "notes": "First QGIS Hackfest.",
+        "name": "Nodebo, Denmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.34210968017578,
+          55.98128991733682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "August 2017",
+        "notes": "First time to Europe with wife. Best kebab ever.",
+        "name": "Istanbul, Turkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.916015625,
+          41.02135510866602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "June 2013",
+        "notes": "First time going aboard and backpacking. Almost no money left in the last day.",
+        "name": "Kuala Lumpur, Malaysia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69288635253906,
+          3.1531998912040655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Work",
+        "year": "May 2018",
+        "notes": "Understanding Risk Conference 2018.",
+        "name": "Mexico City, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.13375854492186,
+          19.41997316110168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "May 2018",
+        "notes": "First time in USA. Short transit with heavy jet lag.",
+        "name": "San Francisco, USA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44674682617188,
+          37.78211205989562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "December 2016",
+        "notes": "Rome-Briancon-Milan-Paris-Leiden-Amsterdam",
+        "name": "Euro Trip 1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.480468749999998,
+            41.88592102814744
+          ],
+          [
+            9.228515625,
+            45.42929873257377
+          ],
+          [
+            6.416015625,
+            45.66012730272194
+          ],
+          [
+            2.373046875,
+            48.86471476180277
+          ],
+          [
+            5.1416015625,
+            51.90361280788357
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "August 2017",
+        "notes": "Nodebo-Copenhagen-Berlin-Dresden-Prague-Vienna-Malmo",
+        "name": "Euro Trip 2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.337646484375,
+            55.97379820507658
+          ],
+          [
+            13.403320312499998,
+            52.46939684276205
+          ],
+          [
+            13.787841796875,
+            51.020666012558095
+          ],
+          [
+            14.3701171875,
+            50.085344397538876
+          ],
+          [
+            16.358642578125,
+            48.19538740833338
+          ],
+          [
+            12.963867187499998,
+            55.60938408809366
+          ],
+          [
+            12.579345703125,
+            55.68997171381322
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "November 2015",
+        "notes": "First aboard with wife in backpacking style.",
+        "name": "Singapore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.80844116210938,
+          1.3429556294180167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Leisure",
+        "year": "May 2018",
+        "notes": "First pyramid.",
+        "name": "Teotihuacan, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.83918762207031,
+          19.70239503140542
+        ]
+      }
+    }
+  ]
+}
