@@ -380,6 +380,32 @@
           41.14905987243725
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Lesisure",
+        "year": "December 2018",
+        "notes": "Cordoba-Sevilla-Granada",
+        "name": "Andalucia Trip"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.76806640625,
+            37.88352498087131
+          ],
+          [
+            -6.0205078125,
+            37.405073750176925
+          ],
+          [
+            -3.6035156249999996,
+            37.21283151445594
+          ]
+        ]
+      }
     }
   ]
 }
