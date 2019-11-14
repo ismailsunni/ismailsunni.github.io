@@ -8,7 +8,7 @@ category: "Design Inspiration"
 tags:
   - "Handwriting"
   - "Learning to write"
-description: "Just another hello world."
+description: "Hello world, again."
 socialImage: "/media/image-2.jpg"
 ---
 
