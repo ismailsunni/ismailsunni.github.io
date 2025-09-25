@@ -23,13 +23,13 @@ import type {AnalyticsConfig} from "./types/analyticsTypes"
  *    All tags will be displayed in single page "/tags".
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: 'Ismail Sunni', // required
   favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
+  author: "Ismail Sunni", // required
   avatar: '/avatar.png', // required
-  url: 'https://astro-yi-nu.vercel.app', // required
-  baseUrl: '', // When using GitHubPages, you must enter the repository name startWith '/'. e.g. '/astro-blog'
+  url: 'https://ismailsunni.id', // required
+  baseUrl: 'ismailsunni.id', // When using GitHubPages, you must enter the repository name startWith '/'. e.g. '/astro-blog'
   motto: 'Actions speak louder than words.',
   recentBlogSize: 5,
   archivePageSize: 25,
@@ -120,31 +120,31 @@ export const categories = [
  * Personal link address
  */
 export const infoLinks = [
-  {
-    icon: 'ri-telegram-fill',
-    name: 'telegram',
-    outlink: '',
-  },
+  // {
+  //   icon: 'ri-telegram-fill',
+  //   name: 'telegram',
+  //   outlink: '',
+  // },
   {
     icon: 'ri-twitter-fill',
     name: 'twitter',
-    outlink: '',
+    outlink: 'https://x.com/ismailsunni',
   },
   {
     icon: 'ri-instagram-fill',
     name: 'instagram',
-    outlink: '',
+    outlink: 'https://instagram.com/ismail.sunni',
   },
   {
     icon: 'ri-github-fill',
     name: 'github',
-    outlink: 'https://github.com/cirry/astro-yi',
+    outlink: 'https://github.com/ismailsunni',
   },
-  {
-    icon: 'ri-rss-fill',
-    name: 'rss',
-    outlink: '',
-  }
+  // {
+  //   icon: 'ri-rss-fill',
+  //   name: 'rss',
+  //   outlink: '',
+  // }
 ]
 
 /**
@@ -158,9 +158,9 @@ export const infoLinks = [
 export const donate = {
   enable: false,
   tip: "Thanks for the coffee !!!☕",
-  wechatQRCode: "/WeChatQR.png",
-  alipayQRCode: "/AliPayQR.png",
-  paypalUrl: "https://paypal.me/xxxxxxxxxx",
+  // wechatQRCode: "/WeChatQR.png",
+  // alipayQRCode: "/AliPayQR.png",
+  paypalUrl: "https://paypal.me/ismailsunni",
 }
 
 /**
