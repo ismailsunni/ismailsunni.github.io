@@ -72,24 +72,9 @@ export const categories = [
     href: "/blog/1",
   },
   {
-    name: "Feed",
-    iconClass: "ri-lightbulb-flash-line",
-    href: "/feed/1",
-  },
-  // {
-  //   name: "Memos",
-  //   iconClass: "ri-quill-pen-line",
-  //   href: "/memos",
-  // },
-  {
     name: "Archive",
     iconClass: "ri-archive-line",
     href: "/archive/1",
-  },
-  {
-    name: "Message",
-    iconClass: "ri-chat-1-line",
-    href: "/message",
   },
   {
     name: "Search",
@@ -97,22 +82,9 @@ export const categories = [
     href: "/search",
   },
   {
-    name: "More",
-    iconClass: "ri-more-fill",
-    href: "javascript:void(0);",
-    children: [
-      {
-        name: 'About',
-        iconClass: 'ri-information-line',
-        href: '/about',
-      },
-      {
-        name: 'Friends',
-        iconClass: 'ri-user-5-line',
-        href: '/friends',
-        target: '_self',
-      },
-    ]
+    name: "About",
+    iconClass: "ri-information-line",
+    href: "/about",
   }
 ]
 
