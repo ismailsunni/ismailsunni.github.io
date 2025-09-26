@@ -1,0 +1,145 @@
+---
+import IndexPage from '../../layouts/IndexPage.astro';
+import { site } from '../../consts.ts';
+
+const title = 'Projects';
+const description = 'Fun and side projects by Ismail Sunni';
+---
+
+<IndexPage title={title} description={description}>
+  <div class="bg-skin-fill">
+    <main id="main-content">
+      <section id="hero">
+        <h1>Projects</h1>
+        <p>A collection of my fun and side projects, including web applications, QGIS plugins, and data visualization experiments.</p>
+      </section>
+
+      <section class="projects">
+        <div class="project-group">
+          <h2>Web Applications</h2>
+          <ul>
+            <li><a href="https://ismailsunni.id/ucl-map/" target="_blank" rel="noopener noreferrer">UCL Map</a> - Interactive map visualization of University College London campus</li>
+            <li><a href="https://onepieceofdata.com/" target="_blank" rel="noopener noreferrer">One Piece of Data</a> - Data visualization and statistics website for One Piece manga/anime</li>
+            <li><a href="https://ismailsunni.id/onepieceofquote/" target="_blank" rel="noopener noreferrer">One Piece of Quote</a> - Random quote generator from One Piece characters and episodes</li>
+          </ul>
+        </div>
+
+        <div class="project-group">
+          <h2>QGIS Plugins & Tools</h2>
+          <ul>
+            <li><a href="https://github.com/ismailsunni/qgis-encoded-polyline" target="_blank" rel="noopener noreferrer">QGIS Encoded Polyline Plugin</a> - Plugin for encoding/decoding polylines using Google's algorithm</li>
+            <li><a href="https://github.com/qgis/QGIS-Hub-Plugin" target="_blank" rel="noopener noreferrer">QGIS Hub Plugin</a> - Official plugin for connecting to QGIS Hub resources</li>
+          </ul>
+        </div>
+
+        <div class="project-group">
+          <h2>Open Source Contributions</h2>
+          <ul>
+            <li><a href="https://github.com/qgis/QGIS/commits?author=ismailsunni" target="_blank" rel="noopener noreferrer">QGIS Core</a> - 3D rendering improvements, bug fixes, and feature enhancements</li>
+            <li><a href="https://github.com/GeoNode/geonode/commits?author=ismailsunni" target="_blank" rel="noopener noreferrer">GeoNode</a> - Contributions to the open source geospatial data platform</li>
+          </ul>
+        </div>
+
+        <div class="project-group">
+          <h2>Academic & Research</h2>
+          <ul>
+            <li><a href="https://ismailsunni.id/GSoC-2019/" target="_blank" rel="noopener noreferrer">Google Summer of Code 2019</a> - Final report on QGIS 3D improvements with OSGeo</li>
+            <li><a href="https://github.com/ismailsunni/MasterThesis" target="_blank" rel="noopener noreferrer">Master Thesis</a> - Testing R implementation across different operating systems for geospatial workflows</li>
+          </ul>
+        </div>
+
+        <div class="project-group">
+          <h2>Community Initiatives</h2>
+          <ul>
+            <li><a href="https://qgis-id.github.io/" target="_blank" rel="noopener noreferrer">QGIS Indonesia User Group</a> - Co-founder and maintainer of Indonesian QGIS community</li>
+            <li><a href="http://python.or.id/" target="_blank" rel="noopener noreferrer">Python Indonesia</a> - Helped initiate Python community meetups in Yogyakarta</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+</IndexPage>
+
+<style>
+  .projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .project-group {
+    margin-bottom: 2.5rem;
+  }
+
+  .project-group h2 {
+    color: var(--color-text);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 0.5rem;
+  }
+
+  .project-group ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .project-group li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    color: var(--color-text);
+  }
+
+  .project-group li:last-child {
+    margin-bottom: 0;
+  }
+
+  .project-group a {
+    color: var(--color-text-active);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .project-group a:hover {
+    text-decoration: underline;
+  }
+
+  #hero {
+    text-align: center;
+    padding: 2rem 0 3rem 0;
+  }
+
+  #hero h1 {
+    font-size: 2.5rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+  }
+
+  #hero p {
+    font-size: 1.2rem;
+    color: var(--color-text-dodge);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .projects {
+      padding: 1rem 0.5rem;
+    }
+
+    .project-group ul {
+      margin-left: 1rem;
+    }
+
+    #hero h1 {
+      font-size: 2rem;
+    }
+
+    #hero p {
+      font-size: 1rem;
+    }
+  }
+</style>
