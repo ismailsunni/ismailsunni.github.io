@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://ismailsunni.id/sitemap-0.xml

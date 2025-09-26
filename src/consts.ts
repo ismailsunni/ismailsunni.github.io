@@ -29,7 +29,7 @@ export const site = {
   author: "Ismail Sunni", // required
   avatar: '/avatar.png', // required
   url: 'https://ismailsunni.id', // required
-  baseUrl: 'ismailsunni.id', // When using GitHubPages, you must enter the repository name startWith '/'. e.g. '/astro-blog'
+  baseUrl: '', // For custom domain, use empty string. For GitHub Pages subdirectory, use '/repo-name'
   motto: 'Actions speak louder than words.',
   recentBlogSize: 5,
   archivePageSize: 25,
