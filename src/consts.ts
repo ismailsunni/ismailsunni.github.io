@@ -71,11 +71,11 @@ export const categories = [
     iconClass: "ri-draft-line",
     href: "/blog/1",
   },
-  {
-    name: "Projects",
-    iconClass: "ri-code-box-line",
-    href: "/projects",
-  },
+  // {
+  //   name: "Projects",
+  //   iconClass: "ri-code-box-line",
+  //   href: "/projects",
+  // },
   {
     name: "Archive",
     iconClass: "ri-archive-line",
