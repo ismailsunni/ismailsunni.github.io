@@ -216,7 +216,7 @@ export const analytics: AnalyticsConfig = {
   umamiConfig: {
     enable: true,
     id: "a4e2f8be-91ae-48a3-a1ba-0b50d7485e05",
-    url: "https://analytics.umami.is"
+    url: "https://cloud.umami.is/script.js"
   },
   gaConfig: {
     enable: true,
