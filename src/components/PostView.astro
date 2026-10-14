@@ -5,17 +5,24 @@ const {blog} = Astro.props;
 const {data, id} = blog
 ---
 
-<div class="my-5 first:mt-0">
-  <PostViewTitle
-    slug={getUrl("/blog/") + id}
-    {...data}
-  >
-  </PostViewTitle>
-  <p class="break-all text-skin-base line-clamp-3">
-    {
-      data.description ? data.description : ''
-    }
-  </p>
+<div class="my-5 first:mt-0 flex gap-4">
+  <div class="flex-1 min-w-0">
+    <PostViewTitle
+      slug={getUrl("/blog/") + id}
+      {...data}
+    >
+    </PostViewTitle>
+    <p class="break-all text-skin-base line-clamp-3">
+      {
+        data.description ? data.description : ''
+      }
+    </p>
+  </div>
+  {data.ogImage &&
+    <a href={getUrl("/blog/") + id} class="shrink-0 self-center">
+      <img src={getUrl(data.ogImage)} alt={data.title} loading="lazy"
+           class="w-24 sm:w-40 aspect-[4/3] object-cover rounded-lg"/>
+    </a>}
 </div>
 <div class="divider-horizontal-mini"></div>
 
